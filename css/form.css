@@ -1,0 +1,64 @@
+h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #1565c0;
+}
+section{
+    background-color: beige;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+input {
+ 
+    padding: 1rem;
+    margin-bottom: 0.6rem;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    font: inherit;
+    outline: none;
+}
+.input{
+   width: 100%;
+   box-shadow: 0 0 2px 0 black ;
+
+}
+#all{
+    margin-top: 30px;
+    margin-right: 10pxpx;
+}
+.input1{
+    margin-top: 30px;
+  
+}
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    font: inherit;
+}
+#idea{
+    width: 100%;
+    border-top: 2px solid black;
+    margin-top: 30px;
+    padding: 40px;
+}
+textarea {
+	width: 100%;
+	border: none;
+	background: #E8E8E8;
+	padding: 5px 10px;
+	height: 50%;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 2px solid #016BA8;
+	transition: all 0.5s;
+	margin-top: 15px;
+}
+footer{
+	background-color: black;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+footer ul li{
+	padding-left: 65px;
+}

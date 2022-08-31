@@ -1,0 +1,31 @@
+section {
+margin-top:10px;
+}
+aside {
+  margin-top: 10px;
+
+}
+aside label {
+  background-color: rgb(82, 113, 238);
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+aside label :hover{
+  background-color: aquamarine;
+}
+section p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+footer{
+	background-color: black;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+footer ul li{
+	padding-left: 65px;
+}
