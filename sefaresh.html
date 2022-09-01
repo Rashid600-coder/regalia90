@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sefaresh</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="shorcat icon" href="images/logo gold.jpg">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+      function show(){
+        var x = new Date();
+        document.getElementById("y").innerText = x.getFullYear() + "/" + (x.getMonth()+1) + "/" + x.getDate();
+        document.getElementById("h").innerText = x.getHours() + ":" + x.getMinutes() + ":" + x.getSeconds();
+
+      }
+      window.setInterval(show,1000);
+      $("document").ready(function(){
+        $("#btn1").click(function(){
+          $(".imgasid").toggle(5000)
+        });
+      });
+      </script>
+                  <script type="text/javascript">
+                    $(document).ready(function() {
+                        $("#sidebar").mCustomScrollbar({
+                            theme: "minimal"
+                        });
+            
+                        $('#dismiss, .overlay').on('click', function() {
+                            $('#sidebar').removeClass('active');
+                            $('.overlay').removeClass('active');
+                        });
+            
+                        $('#sidebarCollapse').on('click', function() {
+                            $('#sidebar').addClass('active');
+                            $('.overlay').addClass('active');
+                            $('.collapse.in').toggleClass('in');
+                            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                        });
+                    });
+                </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container">
+        <header  class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  
+  
+          <img style="border-radius: 5px;" src="images/regalialogo.jpg" height="180px" width="100%"/>
+            <div class="row bor_bottom">
+                <div class="col-md-3">
+                    <div class="full">
+                      <label style="background-color:white; width: 100%;margin-top: 15px;padding-left: 10px;">
+                        <div id="h"></div>
+                        <div id="y"></div>
+                       </label>
+                    </div>
+                </div>
+  
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <ul class="social_top_icon">
+                        <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+  
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="full">
+                        <div class="right_header_info">
+                            <ul>
+                                <li>
+                                    <button type="button" id="sidebarCollapse">
+                                        <img src="images/menu_icon.png" alt="#">
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="clearfix">
+  
+        </div>
+        <nav id="sidebar">
+  
+          <div id="dismiss">
+              <i class="fa fa-arrow-left"></i>
+          </div>
+  
+          <ul class="list-unstyled components">
+  
+              <li class="active">
+                  <a href="index.html">خانه</a>
+              </li>
+              <li>
+                  <a href="about.html">درباره</a>
+              </li>
+              <li>
+                  <a href="#">سفارش آنلاین</a>
+              </li>
+              <li>
+                  <a href="typeproduct.html">انواع محصولات</a>
+              </li>
+              <li>
+                  <a href="contact.html">ارتباط با ما</a>
+              </li>
+              <li>
+                  <a href="map.html">نقشه</a>
+              </li>
+          </ul>
+  
+      </nav>
+      <div class="clearfix">
+
+      </div>
+      <section class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <form action="" id="form-s" >
+          <div id="all">
+          <h1 style="text-align: center;">سفارش آنلاین</h1>
+          <div class="input1">
+           نام: <input type="text" class="input" placeholder="نام.........." name="name"/>
+        </div>
+        <div class="input1">
+            نام فامیلی:<input type="text" class="input"placeholder= "نام فامیلی.........."name="lname"/>
+        </div>
+        <div class="input1">
+          ایمیل آدرس:<input type="text"class="input" placeholder="ایمیل آدرس.........."name="email" />
+      </div>
+      <div class="input1">
+        شماره تماس:<input type="text" class="input" placeholder="شماره تماس.........."name="phone"/>
+    </div>
+    <div class="input1">
+      تعداد کت:<input type="text" class="input" placeholder="تعداد کت.........." name="n_cot"/>
+  </div>
+  <div class="input1">
+    ژیلقه:<input type="checkbox" class="radio" style="margin-right: 150px; display: inline;"/>
+   </div>
+  <div class="input1">
+    نوع پارچه کت :<input type="text" class="input" placeholder="نوع پارچه کت.........." name="c_matarial"/>
+</div>
+<div class="input1">
+  تعدادپالتو :<input type="text" class="input" placeholder="تعداد پالتو.........."name="n_palto"/>
+</div>
+<div class="input1">
+  نوع پارچه پالتو :<input type="text" class="input" placeholder="نوع پارچه پالتو.........." name="p_matarial"/>
+</div><br>
+</div>
+<div id="idea">
+  <h4>دیدگاه *</h4>
+   <textarea name="idea" placeholder="نظرتان را بنوسید:" name="idea"></textarea>
+
+</div>
+<div style="margin-bottom: 20px;">
+  <button class="btn btn-success"type="submit">ارسال</button>
+   </div>
+</div>
+
+
+
+        </form>
+      </section>
+      <div class="container">
+        <footer>
+          <ul class="nav nav-pills" role="tablist">
+           <li><a  href="#"><img src="images/images (1).png" width="50px" height="50px" ></a></li>
+           <li><a  href="#"><img src="images/image(8).png" width="50px" height="50px" ></a></li>
+           <li><a  href="#"><img src="images/image(3).png" width="50px" height="50px" ></a></li>
+           <li><a  href="#"><img src="images/image(4).png" width="50px" height="50px" ></a></li>
+           <li><a  href="#"><img src="images/image(5).png" width="50px" height="50px" ></a></li>
+           <li><a  href="#"><img src="images/image(6).png" width="50px" height="50px" ></a></li>
+           <li><a  href="#"><img src="images/image(7).png" width="50px" height="50px" ></a></li>
+          </ul>
+  
+  
+      </footer>
+      </div>
+  </body>
+</html>
